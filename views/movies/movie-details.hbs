@@ -1,0 +1,29 @@
+<a class="child-click" href="/movies">Back to movies</a>
+<div class="parent">
+
+  <div class="child">
+
+    <h2>{{movie.title}}</h2>
+    <img src="{{movie.image}}" alt="" />
+    <div class="child">
+
+      <!-- WE ARE LOOKING FOR SPECIFIC IDS -->
+      <h3>
+
+        Director:
+        {{movie.director}}
+      </h3>
+      <br />
+
+      Starring:
+      {{movie.stars}}
+      <br />
+      Story:
+      {{movie.description}}
+      <br />
+      Showtimes:
+      {{movie.showtimes}}
+    </div>
+
+  </div>
+</div>

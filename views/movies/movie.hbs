@@ -1,0 +1,15 @@
+<h2>Click on the movie to check the showtimes!</h2>
+
+<div class="parent">
+  {{#each movies}}
+    <div class="child">
+
+      <!-- WE ARE LOOPING THROUGH A LIST FOR OBJECTS -->
+      <h2>{{title}}</h2>
+      <img src="{{image}}" alt="{{title}}" />
+      <br />
+      <a class="child-click" href="/movies/{{id}}">See More</a>
+
+    </div>
+  {{/each}}
+</div>
